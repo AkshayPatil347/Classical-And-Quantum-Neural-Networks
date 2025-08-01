@@ -14,8 +14,29 @@ Research Paper Preprint - https://www.researchgate.net/publication/394016372_Cla
       we dont know the Lagragian vectors for it , unless we pass it throught the chebyshev Activation and find the Lagrangian Vectors explicitly for the test vectors and hence further reaseach is            needed to get SOTA out of just the Lagrangian NN , in loss function or the frequentist approach (this can also help in SOTA Paper of HQAI direct training , or Quantum Everett NN Frequentist            Approach)
    4. Approach 3 is implemented for CIFAR as well - One can change the width and depth of the architechture and instead of target states combined use one hot label encoding
       Here more deeper Lagragian as well Chebyshev NN can be used , also instead of basic NN , one can use Convolutional Lagrangian/Chebyshev NN ,or Transformer Lagrangian/Chebyshev NN terms coined          based on this work for getting higher accuracy of classification , to get both the Probabilistic (Lagrangian Per Sample) and the Deterministic Inpterpretation (Chebyshev Activation NN) of NN ...
-5. Multivariate Taylor/Chebyshev Basis NN
+5. Multivariate Taylor/Chebyshev Basis NN -
 6. Recurrent Polynomial NN(Direct Training)
-7. Chebyshev NN (Direct Training)
+7. Chebyshev NN (Direct Training) -
+   1. Chebyshev NN for CIFAR (Same Width across all layers)
+   2. Chebyshev FeedForward NN for CIFAR (Different Width for Different Layers)
+   3. Direct Lagrangian OVR (Per Class , Different Strategies can be used as in Lagrangian NN paper , also depth and width can be changed based on traditional
+      NN methods that gives the best result accuracy wise)
+   4. Convolutional Lagrangian OVR (per class and not per sample) - Just 10000 Parameters , Optimum Arcitechtures that work best for this via traditional NN that 
+      are already implemented can be used - One can implement all the Methods or Strategies discussed in the Best NN is Lagrangian NN Paper..here only OVR along with convolution is implemented...
+      One can also increase the number of parameters as here only 10000 parameters are considered....And also evaluation can be done only at particular epochs to save the compute time drastically...
+   5. Any and Every Existing type of NN architechture can be applied the Lagrangian Per Sample (Probabilistic Interpretation of NN from Getting Exact Equations of NN Paper), Lagrangian Per Class           (SVM Analog of NN - Various Stategies from Best NN is Lagrangian NN Paper) or Chebyshev Learnable Activation (Deterministic Interpretation of NN Paper along with Bayes Theorem Every Term             Explicity Computed for NN paper) - Advantage of using this is fully Interpretable Equation wise version of NN (either N linear Lagrangian Equation for N samples , or M linear Lagrangian              Equations (Various Stragtegies) for M classes of N samples or one single high degree Polynomial equation for all classes (Chebyshev Activation NN)). # Other Strategies in the Lagrangian OVR          other than the one mentioned in paper is , forming groups per class and assigning one lagrangian vector to that group to improve the expressivity , if the groups are equal to 1 then it forms         as Lagrangian per sample , a case which is already implemented...
+   6. Chebyshev Convolutional NN , separate activation per layer
+   7. Chebyshev Convolutional NN , separate activation per feature element per layer - An Experiment with taking different trainable activation functions per element - 
+      This Architechture of NN does not exist Already in traditional NN , but it is compute extensive , Also different weights and biases for different classes can be another strategy along with           Chebyshev Activations
+# Etc ... can  be tried to increase the expressivity of the Conventional NN further , with ultimate goal to construct compact
+# human understanable equations from these obtained NN equations , i.e. first use unsupervised learning to reduce the number 
+# of features and then make the interpreted equations human understandable on this compact manifold , and then scale them back to given feature size...
+# Universal Audio , Image , Video , Text best P(Y/X) per class human understandable
+# equations or all the terms of Bayes Equations per class is another ultimate scope of this research...this can lead to further innovations in the field
+# and then extending this research from Supervised or Generative or Unsuperivised(Autoencoder as done in Bayes Theorem) to other types of NN Architechtures 
+# namely Reinforcement Learning and World Models...
+
+
+
 
 PS - All the five types discussed in the paper will be uploaded later- 
