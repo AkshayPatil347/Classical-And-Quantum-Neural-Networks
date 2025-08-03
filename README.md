@@ -40,5 +40,3 @@ Research Paper Preprint - https://www.researchgate.net/publication/394016372_Cla
 7. Probabilistic Interpretation of NN - Linear Superposition of Weights (Direct Training) - Research in Progress... 
 
 
-
-PS - All the five types discussed in the paper will be uploaded later- 
