@@ -2,7 +2,7 @@
 
 Research Paper Preprint - https://www.researchgate.net/publication/394016372_Classical_and_Quantum_Neural_Networks
 
-# These comments are commented in code as well , so skip if you want to directly go through the code...
+These comments are commented in code as well , so skip if you want to directly go through the code...
 
 1. Quantum Inspired Everett's Healey Neural Network - Classification Accuracy with Post Processing - 88 to 90 Percent with Post Processing
    (still does not cross the linear threshold , but with more advanced classical post processing to especially classify the unique test which are the        most misclassified is needed.)
