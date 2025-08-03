@@ -19,7 +19,9 @@ These comments are commented in code as well , so skip if you want to directly g
 3. Multivariate Taylor/Chebyshev Basis NN -
 4. Non - Recurrent Simple Polynomial NN of Higher Degree (Direct Training) -
    
-   1.No Recurrence - But the Hypothesis is just the first term of recurrence of higher degree Monomial Polynomial Series- MNIST and CIFAR f(x) = 1 + Σ_{i=1}^{n} (w_i•x)^{d_i} + bias , n = Degree of      the Polynomial.
+   1.No Recurrence - But the Hypothesis is just the first term of recurrence of higher degree Monomial Polynomial Series- MNIST and CIFAR f(x) = bias + Σ_{i=1}^{n} (w_i•x)^{d_i} + bias , n = Degree of      the Polynomial.
+
+The equation - P(Y/X) element = [Bias + (W1*x1 + W2*x2 +... + Wn*xn + b1) + (W1*x1 + W2*x2 +... + Wn*xn + b2)^2 +...+  (W1*x1 + W2*x2 +... + Wn*xn + bd)^d] , with m elements for m classes in m x 1 vector , with all the elements having different weighs and biases , same equation in dot product form above... Structured Poynomial Equation as an alternative to Feedforward NN.
    
    2.Direct polynomial of degree 1000 , it captures the higher order relations.(No Recurrence Relations).As any recurrence relations in terms of polynomial can be resolved to just a single               polynomial equations with no reccurence (as verified by the equations gotten from the Bayes Theorem all terms explicitly calculated and can be proved mathematically as well provided there is
      termination to the recurrence..and hence direct training of the equation is done here ...By increasing the Degree the expressivity of the circuit can be increased and hence the classification       accuracy...Recall from the Bayes theorem Paper since the final learned expression of P(Y/x) is polynomial hence this equation i.e the hypothesis function can act as a alternative to NN ...
